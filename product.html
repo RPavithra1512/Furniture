@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\kvsiva\Desktop\html tutorial\javascript\furniture\style.css">
+    <link rel="stylesheet"href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="icon" href="/media/favicon.ico">
+    <title>product</title>
+    <style>
+      body
+      {background-color: aliceblue;}
+      p{color:black;
+  text-align: center;
+}
+.container {
+position: relative;
+width: 100%;
+}
+
+.image {
+display: block;
+width: 100%;
+height: 100%;
+}
+
+.overlay {
+position: absolute;
+bottom: 100%;
+left: 0;
+right: 0;
+
+overflow: hidden;
+width: 100%;
+height:0;
+transition: .5s ease;
+}
+
+.container:hover .overlay {
+  background-color:rgba(13, 12, 12, 0.671);
+
+bottom: 0;
+height: 100%;
+}
+
+.text {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
+* {
+box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+float: left;
+width: 33.33%;
+padding: 10px;
+height: 100%; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+    </style>
+    
+</head>
+<body>
+   
+    <div class="topnav">
+        <a>Wooden furniture world</a>
+        <a href="#locheading" class="split"> <i class="fa-solid fa-location-pin"></i> Locations</a>
+        
+        <a href="C:\Users\kvsiva\Desktop\html tutorial\javascript\furniture\index.html"class="split"> Home</a>    
+      </div>
+      <div class="row">
+        <div class="column">
+      <div class="container">
+        <img src="kitchen6.jpg" alt="Avatar" class="image" >
+        <div class="overlay">
+          <div class="text">Kitchen furnitures</br>
+            <a href="C:\Users\kvsiva\Desktop\html tutorial\javascript\furniture\kitchen.html" class="button">see all</a></div>
+        </div>
+        </div>
+        <p><b>Kitchen furnitures</b>
+      </div>
+        <div class="column">
+        <div class="container">
+        <img src="living2.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">Living room furnitures</br>
+            <a href="C:\Users\kvsiva\Desktop\html tutorial\javascript\furniture\livingroom.html" class="button">see all</a></div>
+        </div>
+      </div>
+      <p><b>Living room Furnitures</b></p>
+      </div>
+      <div class="column">
+      <div class="container">
+        <img src="rest7.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">rest room furnitures</br>
+            <a href="C:\Users\kvsiva\Desktop\html tutorial\javascript\furniture\bathroom.html" class="button">see all</a></div>
+        </div>
+        </div>
+        <p><b>Rest room Furnitures</b></p>
+      </div>
+      
+      </div>
+     
+      <div class="row">
+        <div class="column">
+      <div class="container">
+        <img src="bedroom.jpg" alt="Avatar" class="image" >
+        <div class="overlay">
+          <div class="text">Bedroom furnitures</br>
+            <a href="C:\Users\kvsiva\Desktop\html tutorial\javascript\furniture\bedroom.html" class="button">see all</a></div>
+        </div>
+        </div>
+        <p><b>Bed room furnitures</b>
+      </div>
+        <div class="column">
+        <div class="container">
+        <img src="office4.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">Office room furnitures</br>
+            <a href="C:\Users\kvsiva\Desktop\html tutorial\javascript\furniture\office.html" class="button">see all</a></div>
+        </div>
+      </div>
+      <p><b>Office room Furnitures</b></p>
+      </div>
+      <div class="column">
+      <div class="container">
+        <img src="kids1.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">Kids room furnitures</br>
+            <a href="C:\Users\kvsiva\Desktop\html tutorial\javascript\furniture\kids.html" class="button">see all</a></div>
+        </div>
+        </div>
+        <p><b>Kids room Furnitures</b></p>
+      </div>
+      
+      </div>
+      <footer>
+        <h2 id="locheading">Locations</h2>
+          <div class="locations">
+              <div class="annanagar">
+                  <h2>Anna Nagar</h2>
+                  <address>
+                      15, 10th Main Road</br>
+                      Anna Nagar,</br>
+                      Chennai - 600102</br>
+                      <i class="fas fa-phone-square-alt"></i> Ph:935678934
+                  </address>
+              </div>
+              <div class="velachery">
+                  <h2>Velachery</h2>
+                  <address>
+                      5, 3rd Cross Road,</br>
+                      Vijaya Nagar,</br>
+                      Velachery,</br>
+                      Chennai - 600042</br>
+                      <i class="fas fa-phone-square-alt"></i>Ph:935678933
+                  </address>
+              </div>
+              <div class="Tambaram">
+                  <h2>Tambaram</h2>
+                  <address>
+                      145, MIT Road,</br>
+                      Tambaram,</br>
+                      Chennai - 600045</br>
+                      <i class="fas fa-phone-square-alt"></i> Ph:935678932
+                  </address>
+              </div>
+          </div>    
+        <div class="social-menu">
+            <ul>
+              <li><a href="#" target="blank"><i class="fab fa-facebook"></i></i></a></li>
+              <li><a href="#" target="blank"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#" target="blank"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </div>
+        <div id="copyright" style="color:white">&#169 copyright furniture world</div>
+        
+      </footer>
+     
+
+
+</body>
+</html>
